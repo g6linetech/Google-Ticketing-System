@@ -39,7 +39,7 @@ function emailStatusUpdates() {
   var shortDescription = sheet.getRange(row, getColIndexByName("Short Description")).getValue(); // Added short description
   var detailedDescription = sheet.getRange(row, getColIndexByName("Detailed Description")).getValue(); // Added detailed description
   var severity = sheet.getRange(row, getColIndexByName("Severity")).getValue(); // Added severity
-  var customerNotes = sheet.getRange(row, getColIndexByName("Customer Notes")).getValue(); // Added customer notes
+  var customerNotes = sheet.getRange(row, getColIndexByName("Help Desk Notes")).getValue(); // Added customer notes
   var status = sheet.getRange(row, getColIndexByName("Status")).getValue(); // Added status
   var resolution = sheet.getRange(row, getColIndexByName("Resolution")).getValue(); // Added resolution
   var userEmail = sheet.getRange(row, getColIndexByName("Email Address")).getValue(); // Email Address
