@@ -1,5 +1,5 @@
 function formSubmitReply(e) {
-  var userEmail = e.values[2]; // Column D for email address
+  var userEmail = e.values[2]; // Column C for email address
   var sheet = SpreadsheetApp.getActiveSheet();
   var newRowIndex = e.range.getRow(); // Get the row index of the new row
   var fullName = e.values[1]; // Added full name
