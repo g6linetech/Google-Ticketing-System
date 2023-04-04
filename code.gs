@@ -19,7 +19,7 @@ function formSubmitReply(e) {
   }
 
   MailApp.sendEmail(userEmail,
-                    newRowIndex + " has been created", // Modified subject
+                    "HDT#" + newRowIndex + " has been created", // Modified subject
                     "Dear " + fullName + ",\n\nThank you for contacting G6line Tech support. We have received your support request with the following details:\n\n" +
                     "Short Description: " + shortDescription + "\n" +
                     "Detailed Description: " + detailedDescription + "\n" +
